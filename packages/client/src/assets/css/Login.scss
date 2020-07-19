@@ -1,0 +1,30 @@
+@import "ResponsiveMixins";
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  &-form {
+    width: 100%;
+    margin: 0 auto !important;
+    @include mobile {
+      margin-left: 20%;
+    }
+  }
+  &-welcome {
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    display: block;
+  }
+  &-login {
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    display: block;
+  }
+  &-signup {
+    margin-left: 1em !important;
+  }
+}

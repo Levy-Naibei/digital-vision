@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 12.5em;
+  padding-bottom: 20px;
+  overflow-x: hidden;
+  &-title {
+    display: block;
+    margin-left: 1rem;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  &-search {
+    margin-left: 20rem;
+  }
+  &-schedule {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5rem;
+    cursor: pointer;
+  }
+  &-logout {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5rem;
+    cursor: pointer;
+  }
+}
