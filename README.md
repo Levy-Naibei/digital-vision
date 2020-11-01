@@ -48,11 +48,11 @@ Run yarn start
 
 ## TV Shows GraphQL Service
 
-This is the backend graphQL service that consumes the `TVMAZE` API.
+This is the backend graphQL API service that queries the `TVMAZE` REST API.
 
 ### Requirements
 
- This assumes you have Node.js and Mongo DB installed on your machine.
+ This assumes you have Node.js and have mongo atlas account or install mongodb in your machine.
 
 ### Getting Started
 
